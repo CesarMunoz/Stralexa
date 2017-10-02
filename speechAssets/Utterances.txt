@@ -1,0 +1,7 @@
+StatisticIntent {Statistic}
+StatisticIntent tell me my {Statistic}
+StatisticIntent what is my {Statistic}
+AMAZON.HelpIntent tell me those statistics types again
+AMAZON.HelpIntent tell me the statistics types
+AMAZON.HelpIntent what are the statistics types again
+AMAZON.HelpIntent what are the statistics types

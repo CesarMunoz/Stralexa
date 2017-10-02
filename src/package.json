@@ -1,0 +1,12 @@
+{
+  "name": "StravaDataFinder",
+  "version": "1.0.0",
+  "description": "StravaDataFinder",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6"
+  },
+  "devDependencies": {},
+  "author": "CTM",
+  "license": "SEE LICENSE IN license.md"
+}

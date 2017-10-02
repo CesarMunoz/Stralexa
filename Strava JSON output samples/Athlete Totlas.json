@@ -1,0 +1,73 @@
+
+https://www.strava.com/api/v3/athletes/22864/stats?access_token=XXXXXXXXX
+
+{
+  "all_ride_totals": {
+    "count": 400,
+    "distance": 9085296,
+    "elapsed_time": 3768562,
+    "elevation_gain": 65740,
+    "moving_time": 1423864
+  },
+  "all_run_totals": {
+    "count": 0,
+    "distance": 0,
+    "elapsed_time": 0,
+    "elevation_gain": 0,
+    "moving_time": 0
+  },
+  "all_swim_totals": {
+    "count": 0,
+    "distance": 0,
+    "elapsed_time": 0,
+    "elevation_gain": 0,
+    "moving_time": 0
+  },
+  "biggest_climb_elevation_gain": 411.803,
+  "biggest_ride_distance": 168659.0,
+  "recent_ride_totals": {
+    "achievement_count": 31,
+    "count": 19,
+    "distance": 259982.701171875,
+    "elapsed_time": 48153,
+    "elevation_gain": 1754.0,
+    "moving_time": 41874
+  },
+  "recent_run_totals": {
+    "achievement_count": 0,
+    "count": 0,
+    "distance": 0.0,
+    "elapsed_time": 0,
+    "elevation_gain": 0.0,
+    "moving_time": 0
+  },
+  "recent_swim_totals": {
+    "achievement_count": 0,
+    "count": 0,
+    "distance": 0.0,
+    "elapsed_time": 0,
+    "elevation_gain": 0.0,
+    "moving_time": 0
+  },
+  "ytd_ride_totals": {
+    "count": 64,
+    "distance": 872677,
+    "elapsed_time": 312855,
+    "elevation_gain": 5994,
+    "moving_time": 146663
+  },
+  "ytd_run_totals": {
+    "count": 0,
+    "distance": 0,
+    "elapsed_time": 0,
+    "elevation_gain": 0,
+    "moving_time": 0
+  },
+  "ytd_swim_totals": {
+    "count": 0,
+    "distance": 0,
+    "elapsed_time": 0,
+    "elevation_gain": 0,
+    "moving_time": 0
+  }
+}

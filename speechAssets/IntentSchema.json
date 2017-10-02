@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "StatisticIntent",
+      "slots" :
+      	[{
+      		"name" : "Statistic",
+      		"type" : "LIST_OF_STATS"
+      	}]
+    }, {
+		"intent" : "AMAZON.YesIntent"
+	}, {
+		"intent" : "AMAZON.NoIntent"
+	}, {
+		"intent" : "AMAZON.HelpIntent"
+	}, {
+		"intent" : "AMAZON.StopIntent"
+	}, {
+		"intent" : "AMAZON.CancelIntent"
+	}
+  ]
+}

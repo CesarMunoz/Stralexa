@@ -1,0 +1,58 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Stralexa2",
+		"_postman_id": "a2e379ec-cc97-9d9f-a43c-c51f62ac6ff5",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Strava token",
+			"request": {
+				"url": "https://test.openapi.starbucks.com/v1/oauth/token?sig=a0619bd896cb88d9af79d77af49c5a0a",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-type",
+						"value": "x-www-form-urlencoded",
+						"description": ""
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-Api-Key",
+						"value": "m6y2qusq6qm3byubynbjgwtb",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "grant_type=password&client_id=25msr49he6hwz7k3btm2qwf6&client_secret=Ns9RqERGKEG9HfrR8qSjENHZ&username=cesar.t.munoz@gmail.com&password=wip3outXL\r"
+				},
+				"description": "Get SBUX API access token, MD5 signature needed for this"
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.strava.com/api/v3/athlete?access_token=e4f6313accdb50d0dc4800de07dac40f44e37d2e",
+			"request": {
+				"url": "https://www.strava.com/api/v3/athlete?access_token=e4f6313accdb50d0dc4800de07dac40f44e37d2e",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "Athlete Info"
+			},
+			"response": []
+		}
+	]
+}
